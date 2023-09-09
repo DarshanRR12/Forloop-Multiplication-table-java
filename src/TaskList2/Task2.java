@@ -2,6 +2,7 @@ package TaskList2;
 
 import java.util.Scanner;
 
+// 👍, Works, no complaints
 public class Task2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

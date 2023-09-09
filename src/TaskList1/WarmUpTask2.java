@@ -9,6 +9,7 @@ public class WarmUpTask2 {
         int userInput = scanner.nextInt();
 
         for (int num = userInput; num >= 0; num --){
+            // Run the code and test before considering it correct!
             if (num % 2 == 0){
                 System.out.println(num + " Triplet");
             } else {
