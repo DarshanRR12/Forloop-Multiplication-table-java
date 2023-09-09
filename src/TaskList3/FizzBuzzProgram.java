@@ -17,14 +17,15 @@ public class FizzBuzzProgram {
     public static void main(String[] args) {
         int userInput = 100;
         for (int currentNumber = 0; currentNumber <= userInput; currentNumber++){
-            if ( currentNumber % 3 == 0 && currentNumber % 5 == 0){
-                System.out.println("Fizzbuzz");
-            } else if (currentNumber % 3 == 0) {
-                System.out.println("Fizz");
-            } else if (currentNumber % 5 == 0) {
-                System.out.println("Buzz");
-            } else
-                System.out.println(currentNumber);
+            String s = "";
+
+            if (currentNumber % 3 == 0) s += "Fizz";
+            if (currentNumber % 5 == 0) s += "Buzz";
+            if (currentNumber % 7 == 0) s += "Bar";
+            if (currentNumber % 9 == 0) s += "Boo";
+
+            if (s.isEmpty()) System.out.println(currentNumber);
+            else System.out.println(s);
         }
     }
 }

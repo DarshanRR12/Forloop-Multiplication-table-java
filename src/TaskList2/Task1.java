@@ -14,7 +14,7 @@ public class Task1 {
 
         // also try using for loop as well
         while (currentNum <= userInput){
-            System.out.println(currentNum + " " + (currentNum-userInput));
+            System.out.println(currentNum + " " + (userInput - currentNum));
             currentNum ++;
         }
     }

@@ -12,7 +12,7 @@ public class Task3 {
         System.out.println("Enter a Number: ");
         int number = scanner.nextInt();
 
-        int factorial = 1;
+        long factorial = 1;
         for(int i = 1; i <= number; i++){
             factorial *= i;
             // why are you printing it again and again?
@@ -21,7 +21,7 @@ public class Task3 {
             // input = 5
             // output = 120
             // good enough
-            System.out.println(factorial);
         }
+        System.out.println(factorial);
     }
 }
